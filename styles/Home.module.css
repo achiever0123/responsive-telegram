@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 8%;
+  margin-left: 8%;
+  display: flex;
+}
+
+.coverage {
+  width: 48.3%;
+  margin-right: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 33.75%;
+}
+
+.coverageMain {
+  width: 81.6%;
+  margin-left: 5.17%;
+}
+
+.coverageGallery {
+  width: 13.8%;
+}
+
+.contentName {
+  font-family: "Proxima Soft";
+  color: #191e25;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  vertical-align: top;
+}
+
+.contentText {
+  color: #525252;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Helvetica Now Display";
+  font-weight: 400px;
+  margin-top: 8px;
+  vertical-align: top;
+  text-decoration: underline;
+}
+
+.contentButton {
+  width: 100%;
+  background-color: #191919;
+  color: white;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container{
+    display: block;
+    margin: 0;
+  }
+  .coverage {
+    width: 100%;
+  }
+  .coverageGallery {
+    width: 0%;
+  }
+  .coverageMain {
+    width: 100%;
+    margin: 0;
+  }
+  .content{
+    width: 91.8%;
+    padding-left: 4.1%;
+    padding-right: 4.1%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+}
+
+
+@media (max-width: 376px) {
+  .container{
+    display: block;
+    margin: 0;
+  }
+  .coverage {
+    width: 100%;
+  }
+  .coverageGallery {
+    width: 100%;
+  }
+  .coverageMain {
+    width: 0%;
+    margin: 0;
+  }
+
+  .content{
+    width: 91.8%;
+    padding-left: 4.1%;
+    padding-right: 4.1%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .gallery{
+    display: none;
+  }
+  .coverageGallery img{
+    margin: 0px !important;
+  }
+
+}
